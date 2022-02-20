@@ -1,0 +1,151 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Medium.ttf");
+  font-weight: 500;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: #f9f9f9;
+}
+
+header {
+  padding-top: 79px;
+  padding-bottom: 144px;
+}
+
+.navbar > a {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.navbar > a:not(:last-child) {
+  margin-right: 42px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.active {
+  font-weight: 500;
+  color: #500e0a;
+}
+
+.grey-background {
+  background-color: #ebebeb;
+}
+
+.container {
+  margin-left: 420px;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 500;
+  line-height: 79px;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.call-to-action {
+  margin-top: 162px;
+}
+
+.filler-text {
+  line-height: 26px;
+  color: #727272;
+  max-width: 540px;
+  margin-top: 50px;
+}
+
+button {
+  padding: 19px 42px;
+  background: #500e0a;
+  border-radius: 7px;
+  color: #ffffff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 60px;
+  letter-spacing: 0.1em;
+}
+
+.about-me {
+  text-align: center;
+  padding-top: 112px;
+  padding-bottom: 100px;
+}
+
+.about-me .filler-text {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 37px;
+}
+
+.red-background {
+  background-color: #500e0a;
+}
+
+.project-list {
+  padding: 100px 0;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.project {
+  color: #ffffff;
+  display: inline-block;
+}
+
+.project:not(:last-child) {
+  margin-right: 45px;
+}
+
+.project-sign {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.project-sign > p {
+  margin-top: 10px;
+}
+
+.light {
+  background-color: #ebebeb;
+}
+
+.video-container {
+  padding-top: 57px;
+  padding-bottom: 100px;
+}
+
+footer {
+  color: #ffffff;
+}
+
+.footer-wrapper {
+  padding: 50px 0;
+  margin-left: 406px;
+}
+
+.footer-wrapper > p {
+  margin-top: 20px;
+  font-size: 13px;
+  line-height: 21px;
+}
